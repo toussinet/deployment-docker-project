@@ -1,4 +1,4 @@
-FROM php:8.2
+FROM php:8.4.0alpha4-zts-bullseye
 
 RUN apt-get update -y && apt-get install -y openssl zip unzip 
 
